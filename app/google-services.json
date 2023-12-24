@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909016789239",
+    "project_id": "signup-page-66803",
+    "storage_bucket": "signup-page-66803.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909016789239:android:3d781613762784446963f2",
+        "android_client_info": {
+          "package_name": "com.example.smarthomefinale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909016789239-djsnrtohv9cdq6ltuavo216ng66vgeit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQqTdfIGqT-4zQ_5zH6ZHBevgM6MuRSa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909016789239-djsnrtohv9cdq6ltuavo216ng66vgeit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

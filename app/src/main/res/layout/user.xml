@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_layout"
+    tools:context=".user">
+
+    <ImageView
+        android:id="@+id/home_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/smart_home_logo" />
+
+    <TextView
+        android:id="@+id/user_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Smart Home users"
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/users_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/user_title">
+
+<LinearLayout
+    android:id="@+id/user_info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:text="NAME :"
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/user_nameee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amani"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttger_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+
+        >
+
+        <Button
+            android:id="@+id/gacceptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="32dp"
+            android:text="accepter"
+            android:textSize="18sp"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@android:color/white"
+            android:padding="6dp"/>
+
+        <Button
+            android:id="@+id/suppButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+            android:text="supprimer"
+            android:textSize="18sp"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@android:color/white"
+
+            android:stateListAnimator="@null"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

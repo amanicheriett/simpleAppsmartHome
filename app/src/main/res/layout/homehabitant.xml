@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homehabitant_layout"
+    tools:context=".homehabitant">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/smart_home_logo" />
+    <TextView
+        android:id="@+id/homehabitanth_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="HABITANT"
+        android:textColor="@color/material_dynamic_neutral10"
+
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/homehabitantH1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homehabitanth_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+        android:text="welcome to Smart Home application"
+        android:textColor="@color/material_dynamic_neutral10"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/homehb1"
+        android:layout_below="@id/homehabitantH1_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/logohomeh1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_baseline_add_24" />
+        <Button
+            android:id="@+id/demandeacceebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logohomeh1"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="32dp"
+            android:text="DEMANDER ACCEER"
+            android:textSize="18sp"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:stateListAnimator="@null"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/homehb2"
+        android:layout_below="@id/homehb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/logohhome4"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_baseline_login_24" />
+        <Button
+            android:id="@+id/deconnecterhButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logohhome4"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="32dp"
+            android:text=" deconnecter "
+            android:textSize="18sp"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:stateListAnimator="@null"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
